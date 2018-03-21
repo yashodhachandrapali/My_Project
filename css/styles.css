@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+}
+
+.div-cols{
+    padding:30px !important;
+}
+
+form div:last-child{
+    text-align:center;
+}
+
+table th:first-child{
+    width:10%;
+}
+.error{
+    border: red solid 1px !important;
+}
+.recycle{
+    height: 48px;
+    width: 48px;
+    background-image: url("../images/recyclebin.png");
+    background-size: contain;
+    margin: auto;
+}
+.recycle:hover{
+    height: 48px;
+    width: 48px;
+    background-image: url("../images/recyclebin-hover.png");
+    background-size: contain;
+    margin: auto;
+}
+
+.tfoot-display{
+    display: none;
+}

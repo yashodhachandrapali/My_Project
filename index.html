@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise - 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+<h1>Exercise - 1</h1>
+<div class="ui grid stackable">
+
+    <div class="eight wide column div-cols">
+
+        <form class="ui form">
+
+            <div class="field">
+                <label>Full Name</label>
+                <input id="txtFullName" type="text" name="txtFullName" placeholder="Full Name">
+            </div>
+            <div class="field">
+                <label>Address</label>
+                <input id="txtAddress" type="text" name="txtAddress" placeholder="Address">
+            </div>
+            <div class="field">
+                <label>NIC</label>
+                <div class="ui right labeled input">
+                    <input id="txtNIC" type="text" name="txtNIC" placeholder="NIC">
+                    <a class="ui tag label">
+                        V
+                    </a>
+                </div>
+            </div>
+            <div>
+                <button id="btnAdd" type="button" class="ui primary button">
+                    Add to Table
+                </button>
+            </div>
+
+        </form>
+
+    </div>
+    <div class="eight wide column div-cols">
+
+        <span>List of Students</span>
+
+        <table id="tblStudents" class="ui celled padded table selectable unstackable">
+
+            <thead>
+            <tr>
+                <th class="center aligned">No</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th class="center aligned">NIC</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+            <tfoot>
+            <tr>
+                <td colspan="5" class="center aligned">There are no records right now !</td>
+            </tr>
+            </tfoot>
+        </table>
+
+    </div>
+
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/semantic.min.js"></script>
+<script type="text/javascript" src="js/HomeController.js"></script>
+</body>
+</html>
